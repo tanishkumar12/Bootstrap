@@ -66,7 +66,13 @@
     display: flex;
     justify-content: space-between;
 }
-.posi{
+tr{
     background-color: white;
-    border: 0 0 ;
+}
+..posi{
+    display: inline;
+    padding: 10%;
+}
+tr{
+    border: 0;
 }
