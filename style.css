@@ -43,12 +43,14 @@
     justify-content: space-between;
     background-color: white;
 }
-#greenbg{
-    background-color: rgb(217, 247, 217);
+.greenbg{
+    background-color: rgba(217, 247, 217, 0.68);
     color: green;
+    border-radius: 5px;
 }
-#bluebg{
+.bluebg{
     background-color: rgb(221, 236, 243);
+    border-radius: 5px;
 }
 .psize{
     font-size: x-small;
@@ -71,13 +73,7 @@
 }
 tr{
     background-color: white;
-}
-..posi{
-    display: inline;
-    padding: 10%;
-}
-tr{
-    border: 0;
+ 
 }
 .nav a:hover{
     background-color: #0b21596f;
@@ -90,4 +86,16 @@ tr{
 }
 .button-R{
     border-radius: 2em;
+}
+.form{
+
+    position: relative;
+}
+
+.form img{
+
+    position: absolute;
+    top:0.5em;
+    left: 0.5em;
+    color: #9ca3af;
 }
